@@ -1,0 +1,33 @@
+body {
+    background-color: chocolate;
+    color: black;
+    font-family: "MedievalSharp", cursive;
+    display: flex;
+    font-weight:400px;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: brown;
+    font-family: "MedievalSharp", cursive;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 80%;
+}
